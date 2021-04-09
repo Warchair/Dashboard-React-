@@ -17,8 +17,8 @@ ReactDOM.render(
     <Switch>
       <Route path="/admin" component={Admin} />
       <Route path="/auth" component={Auth} />
-      <Route path="/" exact component={Index} />
-      <Redirect from="*" to="/" />
+      <Route path="/dasboard-react" exact component={Index} />
+      <Redirect from="*" to="/dasboard-react" />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
